@@ -27,6 +27,7 @@
     "@cypress/webpack-preprocessor": "^5.15.5",
     "@openshift-console/dynamic-plugin-sdk": "1.4.0",
     "@openshift-console/dynamic-plugin-sdk-webpack": "1.1.1",
+    "@patternfly/react-charts": "^7.4.0",
     "@patternfly/react-core": "^6.2.2",
     "@patternfly/react-icons": "^6.2.2",
     "@patternfly/react-table": "^6.2.2",
@@ -71,10 +72,10 @@
   "consolePlugin": {
     "name": "console-plugin-template",
     "version": "0.0.1",
-    "displayName": "OpenShift Console Plugin Template",
-    "description": "Template project for OpenShift Console plugins. Edit package.json to change this message and the plugin name.",
+    "displayName": "Kepler Power Monitoring Plugin",
+    "description": "OpenShift Console plugin for Kepler power monitoring metrics and dashboards.",
     "exposedModules": {
-      "ExamplePage": "./components/ExamplePage"
+      "PowerMonitoringDashboard": "./components/PowerMonitoringDashboard"
     },
     "dependencies": {
       "@console/pluginAPI": "*"

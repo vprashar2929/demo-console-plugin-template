@@ -3,18 +3,18 @@
     "type": "console.page/route",
     "properties": {
       "exact": true,
-      "path": "/example",
-      "component": { "$codeRef": "ExamplePage" }
+      "path": "/power-monitoring",
+      "component": { "$codeRef": "PowerMonitoringDashboard" }
     }
   },
   {
     "type": "console.navigation/href",
     "properties": {
-      "id": "example",
-      "name": "%plugin__console-plugin-template~Plugin Example%",
-      "href": "/example",
+      "id": "power-monitoring",
+      "name": "Power Monitoring",
+      "href": "/power-monitoring",
       "perspective": "admin",
-      "section": "home"
+      "section": "observe"
     }
   }
 ]
